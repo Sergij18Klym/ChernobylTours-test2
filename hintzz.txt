@@ -1,3 +1,5 @@
+-------------INITIAL--------------------
+
 git init
 
 // create .gitignore and include there files unwanted to push
@@ -23,3 +25,13 @@ git push heroku main
 // -> https://dashboard.heroku.com/apps/chernobyl2test2/settings
 /* addconfig vars: KEY="DATABASE_URL", VALUE="mongocloudconnection"
 
+
+--------------UPDATE-------------------
+
+git add .
+
+git commit -m "anything2"
+
+git push -f origin main
+
+git push heroku main
